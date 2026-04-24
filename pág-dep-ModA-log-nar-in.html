@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Provas ModA - Portal do Aluno</title>
+
+<style>
+body {
+    background: #dcdcdc;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 14px;
+}
+
+/* Container antigo */
+#container {
+    width: 960px;
+    margin: 20px auto;
+    background: #ffffff;
+    border: 1px solid #bfbfbf;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    padding: 0;
+}
+
+/* Cabeçalho */
+#header {
+    background: #2f5fa5;
+    color: white;
+    padding: 15px;
+    border-bottom: 3px solid #1d3f73;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+/* Menu horizontal */
+#menu {
+    background: #e6e6e6;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 8px;
+}
+
+#menu a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo */
+#content {
+    padding: 20px;
+}
+
+/* Caixa estilo 2012 */
+.box {
+    border: 1px solid #bfbfbf;
+    background: #f7f7f7;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Tabela antiga */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background: #e6e6e6;
+    border: 1px solid #bfbfbf;
+    padding: 6px;
+    font-size: 13px;
+}
+
+td {
+    border: 1px solid #bfbfbf;
+    padding: 6px;
+    font-size: 13px;
+}
+
+/* Botões estilo antigo */
+.btn {
+    background: #e6e6e6;
+    border: 1px solid #999;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn:hover {
+    background: #d4d4d4;
+}
+
+.btn-primary {
+    background: #2f5fa5;
+    color: white;
+    border: 1px solid #1d3f73;
+}
+
+.btn-primary:hover {
+    background: #244a82;
+}
+
+/* Rodapé */
+#footer {
+    text-align: center;
+    padding: 10px;
+    background: #e6e6e6;
+    border-top: 1px solid #bfbfbf;
+    font-size: 12px;
+    color: #555;
+}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+    <div id="header">
+        <h1>Portal do Aluno - Provas ModA</h1>
+    </div>
+
+    <div id="menu">
+        <a href="#">Início</a>
+        <a href="#">Provas</a>
+        <a href="#">Inscrições</a>
+        <a href="#">Ajuda</a>
+    </div>
+
+    <div id="content">
+
+        <div class="box">
+            <h2>Informações das Provas ModA</h2>
+            <p>Bem-vindo ao portal das Provas ModA. Aqui podes consultar datas, salas, materiais permitidos e o teu estado de inscrição.</p>
+        </div>
+
+        <div class="box">
+            <h3>As tuas Provas</h3>
+
+            <table>
+                <tr>
+                    <th>Prova</th>
+                    <th>Data</th>
+                    <th>Hora</th>
+                    <th>Sala</th>
+                    <th>Estado</th>
+                </tr>
+                <tr>
+                    <td>ModA - Matemática</td>
+                    <td>12/06/2026</td>
+                    <td>09:00</td>
+                    <td>Sala 14</td>
+                    <td>Inscrito</td>
+                </tr>
+                <tr>
+                    <td>ModA - Português</td>
+                    <td>14/06/2026</td>
+                    <td>09:00</td>
+                    <td>Sala 08</td>
+                    <td>Pendente</td>
+                </tr>
+            </table>
+
+            <br>
+            <button class="btn">Atualizar</button>
+            <button class="btn-primary">Imprimir</button>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        Portal do Aluno © 2012–2026
+    </div>
+
+</div>
+
+</body>
+</html>
